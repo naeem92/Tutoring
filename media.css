@@ -1,0 +1,314 @@
+@media (max-width: 1024px) {
+  /* Hero section  */
+  .left-bar {
+    display: none;
+  }
+  /* Cards section  */
+  h2 {
+    font-size: 24px;
+  }
+  .card p {
+    font-size: 17px;
+  }
+  /* Approach section  */
+  .circle-card {
+    height: 280px;
+    width: 280px;
+}
+.approach-row {
+  height: 250px;
+  gap: 40px;
+}
+  .approach-content {
+    width: 100%;
+    gap: 32px;
+  }
+  /* reviews section  */
+  .review-card p {
+    width: 462px;
+    font-size: 18px;
+  }
+  /* Our Services  */
+  .services-card-img img {
+    width: 125px;
+  }
+  /* Footer section  */
+  .footer-contact p {
+    margin-left: 20px;
+  }
+  .footer-links {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    padding-top: 80px;
+  }
+  /* Nav section  */
+  .nav-links {
+    gap: 20px;
+  }
+  .nav-links {
+    position: absolute;
+    z-index: -1;
+    top: 82px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background: white;
+    padding: 28px;
+    left: -400px;
+    padding-bottom: 100vh;
+    transition: left 200ms ease-in-out;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+  .mobile-links {
+    left: 0px;
+    top: 82px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+  }
+  .logo-text {
+    font-size: 18px;
+  }
+  .logo img {
+    width: 40px;
+  }
+  .nav-links li a {
+    color: black;
+  }
+  .open {
+    display: block;
+  }
+  .close {
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-9 {
+    width: unset;
+  }
+  /* Hero section  */
+  .text-content h1 {
+    font-size: 38px;
+  }
+  .text-content p {
+    font-size: 24px;
+  }
+  /* Cards section  */
+  h2 {
+    font-size: 24px;
+  }
+  .cards-row > .col-4 {
+    flex: 0 0 50%;
+    margin-bottom: 30px;
+  }
+  .approach-row {
+    height: 200px;
+  }
+  .approach-row {
+    gap: unset;
+  }
+  .circle-card {
+    height: 230px;
+    width: 230px;
+  }
+  .icon img {
+    width: 75px;
+  }
+  .hand img {
+    width: 105px;
+  }
+  .circle-card {
+    gap: 10px;
+  }
+  .circle-btn {
+    width: 134px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  /* Our Services  */
+  .services-card {
+    padding: 19px;
+    gap: 0px;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .services-card-img img {
+    width: 100%;
+  }
+  .services-card-content .card-btn {
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 14px;
+  }
+  /* Reviews section  */
+
+  /* Footer section  */
+  .footer-row {
+    flex-direction: column;
+  }
+  .footer-row .col-2,
+  .footer-row .col-7,
+  .footer-row .col-3 {
+    width: 100%;
+  }
+  .footer-links {
+    gap: 14px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-logo img {
+    width: 85px;
+  }
+  .footer-contact p {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  /* hero section  */
+  .hero-content {
+    flex-direction: column;
+  }
+  .left-bar {
+    display: none;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .text-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .text-content p {
+    font-size: 23px;
+  }
+  .buttons {
+    margin-top: 20px;
+  }
+  .buttons button {
+    padding: 13px 0px;
+    font-size: 14px;
+  }
+  .white,
+  .green {
+    width: 215px;
+  }
+  /* Cards section  */
+  .approach-content h1 {
+    font-size: 28px;
+  }
+  .cards-row {
+    flex-direction: column;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  /* Approach section  */
+  .approach-row {
+    background-image: none;
+  }
+  .approach-row {
+    flex-direction: column;
+    height: 100%;
+  }
+  .circle-card {
+    margin-left: 0px;
+  }
+  .approach-content p {
+    margin-bottom: 32px;
+    font-size: 16px;
+  }
+  .approach-content {
+    gap: 14px;
+  }
+
+  /* Our Services  */
+  .services-text h1 {
+    font-size: 40px;
+  }
+  .services-card-content p {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  /* Reviews section */
+  .reviews-title h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .review-card p {
+    width: 270px;
+  }
+  .review-card {
+    width: 340px;
+  }
+  .review-card.inactive {
+    margin-left: 41px;
+  }
+  /* FAQ section  */
+  .faq-row {
+    flex-direction: column;
+  }
+  .col-5,
+  .col-7 {
+    width: 100%;
+  }
+  .faq-text h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .question {
+    padding: 7px 0;
+    font-size: 16px;
+  }
+  .faq-item {
+    margin-bottom: 30px;
+  }
+}
+
+/* Mobile screen styles */
+@media (max-width: 767px) {
+  .row.approach-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .approach-row > .col-4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .icon {
+    margin-bottom: 10px;
+  }
+  .circle-card {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    gap: 20px;
+  }
+  .icon img {
+    width: 120px;
+  }
+  .hand img {
+    width: 150px;
+  }
+}

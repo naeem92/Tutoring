@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Reviews</title>
+  </head>
+  <body>
+    <!-- Navbar section  -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="logo">
+              <a href="home.html">
+                <img src="./assets/logo.png" alt="Ivy Tutoring Logo" />
+                <span class="logo-text"
+                  >ivy <br /><strong>tutoring</strong></span
+                >
+              </a>
+            </div>
+          </div>
+          <div class="col-9">
+            <ul class="nav-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="reviews.html">Review</a></li>
+              <li><a href="#" data-target="#become-tutor">Become a Tutor</a></li>
+              <li>
+                <a href="#" class="cta-btn" data-target="#tutorFormModal"
+                  >Find a Tutor</a
+                >
+              </li>
+            </ul>
+            <svg
+              class="open show"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+
+            <svg
+              class="close hidden"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Reviews header  -->
+    <section class="reviews-header">
+      <div class="container">
+        <div class="row">
+          <div class="review-header-content">
+            <h1 class="review-header-text">Happy Clients</h1>
+            <button
+              class="btn-pop view-all-reviews"
+              data-target="#reviewFormModal"
+            >
+              Leave a review
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review cards section -->
+    <section class="review-cards">
+      <div class="container">
+        <div class="row row-wrap">
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                I like that I feel like I am making a difference in someone's
+                life. My student feels like he is learning and more able to meet
+                his goals. I also love that the schedule is flexible.
+              </p>
+              <div class="author-start">
+                <div class="review-author">C. Francis</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                Working with Tutor Doctor is great. The staff are all very
+                attentive and caring, the scheduling is flexible, the pay is
+                good, and the students and families I
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>
+                  get to work with are all incredible. There is no doubt in my
+                  mind that I made the right decision choosing to work with
+                  Tutor Doctor.
+                </p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">G. Castillo</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                I think it's a great platform to begin any kind of teaching
+                profession. As someone who wants to pursue a teaching career at
+                a university one
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>
+                  day (hopefully, get a PhD!), I love that I get to exercise my
+                  skills and passion. I also like that the Tutor Doctor system
+                  is so streamlined: no fusses or miscommunication, which makes
+                  everything efficient and simple.It also doesn't hurt that the
+                  team seems
+                </p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">S. Shaikh</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                I really appreciate the "teamwork" attitude/philosophy Tutor
+                Doctor communicates. I feel valued and supported based upon the
+                flexibility
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>
+                  of being able to set my own hours and work schedule… I have
+                  been provided the opportunity to develop positive
+                  relationships with students and parents, while still teaching
+                  full time. I would highly recommend Tutor Doctor to anyone
+                  interested in becoming a
+                </p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">S. Lullie</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                As a retired teacher, I love being able to support kids
+                one-to-one. The Tutor Doctor concept is phenomenal! It's the
+                missing educational link between
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>
+                  home and school… Thanks for offering the opportunity to
+                  continue sharing my skills as an academic coach in our
+                  community.
+                </p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">P. McLoughlin</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                I like the fact that tutoring makes a difference! Not only in
+                the student's life but in the life of the family as well! It
+                gives the student/family a break from
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>
+                  the overall stress that homework can cause in the home when
+                  the parents are unable to help their own children. I like the
+                  fact that a student can ask questions they may not be able to
+                  ask while in school. It gives them a great feeling of
+                </p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">J. Somlai</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                I like that I feel like I am making a difference in someone's
+                life. My student feels like he is learning and more able to meet
+                his goals. I also
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>love that the schedule is flexible.</p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">Michelle Kanar, Kalamazoo</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                Free consultations and the owners find a tutor whose personality
+                matches your student.
+              </p>
+              <div class="author-start">
+                <div class="review-author">Becca, Fort Worth</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                My son improved through your lessons. I really appreciate your
+                hard work. My son got a scholarship from North London Grammar
+                School in London and it is all with your help.
+              </p>
+              <div class="author-start">
+                <div class="review-author">Selami, Alaska</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                I am extremely impressed with Tutor Doctor. I contacted Tutor
+                Doctor for my two sons in elementary grades and the sessions are
+                going great! The admin.
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>
+                  the process to get started was professional, timely, and
+                  molded to our needs as a family. We were matched with our
+                  tutor, Jen, and we could not be happier! She is truly
+                  wonderful and a perfect fit for our boys. From day one, minute
+                  one, Jen walked
+                </p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">Kelly E., Calgary</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                I have been using South Bay Tutor Doctor services for many years
+                (from middle school to college). They have excellent tutors and
+                administrative
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>
+                  staff. The tutors are understating, knowledgeable and empower
+                  you to the work and become more confident.
+                </p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">Harris. A, Rancho Palos Verdes</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="review-card review-page-card">
+              <p>
+                Alexandre Pinheiro at Tutor Doctor in Frisco is AWESOME! He is
+                able to take physics concepts and break it down into very
+                understandable concepts.
+              </p>
+              <a href="" class="continue-reading"
+                >Continue Reading <span>→</span></a
+              >
+              <div class="additional-content" style="display: none">
+                <p>
+                  He is very good at teaching and so flexible. Physics is not
+                  easy but Alex makes it make sense. We are able to do on line
+                  tutoring so that is even better. My son loves working with
+                  Alex. I highly recommend Tutor Doctor for your students needs.
+                </p>
+              </div>
+              <div class="author-start">
+                <div class="review-author">cpavlas, Frisco</div>
+                <div class="review-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-pop view-all-reviews" data-target="#reviewFormModal">
+          Leave a review
+        </button>
+      </div>
+    </section>
+    <!-- pop_up  -->
+    <div class="modal_wrapper" id="reviewFormModal">
+      <div class="modal_container">
+        <div class="add-review">
+          <h1>Write a Review</h1>
+          <a href="#" class="cancel-link close-modal">Cancel</a>
+        </div>
+        <div class="review-form-container">
+          <form class="review-form">
+            <div class="rating-section">
+              <label>Rating Your Experience</label>
+              <div class="star-rating">
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="John" />
+              </div>
+              <div class="form-group">
+                <label for="qoute">Qoute:</label>
+                <input type="text" id="qoute" placeholder="Doe" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="state">State:</label>
+                <select id="state">
+                  <option>Select</option>
+                  <option>Punjab</option>
+                  <option>Sindh</option>
+                  <option>Khyber Pakhtunkhwa</option>
+                  <option>Balochistan</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="city">City:</label>
+                <select id="city">
+                  <option>Select</option>
+                  <option>Lahore</option>
+                  <option>Islamabad</option>
+                  <option>Karachi</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="review">Review:</label>
+              <textarea id="review" placeholder="Select"></textarea>
+            </div>
+            <div class="form-group mail">
+              <label for="email">Email (Optional):</label>
+              <input type="email" id="email" placeholder="Select" />
+            </div>
+            <button type="submit" class="view-all-reviews" >
+              SUBMIT YOUR REVIEW
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- modal pop_up  -->
+    <div class="modal_wrapper" id="tutorFormModal">
+      <div class="modal_container">
+        <div class="add-review find-tutor">
+          <a href="#" class="cancel-link close-modal find-tutor-icon">×</a>
+        </div>
+        <h2>Find a Tutor</h2>
+        <div class="review-form-container">
+          <form class="review-forms">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Student's First name</label>
+                <input type="text" id="name" placeholder="John" />
+              </div>
+              <div class="form-group">
+                <label for="qoute">Student's Last name</label>
+                <input type="text" id="qoute" placeholder="Doe" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="state"
+                  >Which service(s) are you interested in?</label
+                >
+                <select id="state">
+                  <option>Select</option>
+                  <option>Subject Tutoring</option>
+                  <option>College Planning</option>
+                  <option>Test Prep</option>
+                  <option>Become a Tutor</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="city"
+                  >What subjects is your student interested in?</label
+                >
+                <select id="city">
+                  <option>Select</option>
+                  <option>C++</option>
+                  <option>Programming fundamental</option>
+                  <option>Python</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group form-groups">
+                <label for="state">Current grade level?</label>
+                <select id="state">
+                  <option>Select</option>
+                  <option>9th</option>
+                  <option>10th</option>
+                  <option>11th</option>
+                  <option>12th</option>
+                </select>
+              </div>
+              <!-- <div class="form-group">
+                    <label for="city">What subjects is your student interested in?</label>
+                    <select id="city">
+                      <option>Select</option>
+                      <option>Lahore</option>
+                      <option>Islamabad</option>
+                      <option>Karachi</option>
+                    </select>
+                  </div> -->
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="state"
+                  >What days of the week does your student prefer?</label
+                >
+                <select id="state">
+                  <option>Select</option>
+                  <option>Monday</option>
+                  <option>Tuesday</option>
+                  <option>Wednesday</option>
+                  <option>Thursday</option>
+                  <option>Friday</option>
+                  <option>Saturday</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="city"
+                  >What times of the day does your student prefer?</label
+                >
+                <select id="city">
+                  <option>Select</option>
+                  <option>Morning</option>
+                  <option>Evening</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="state">Email address</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="johndoe@example.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="city">Phone Number</label>
+                <input type="text" id="name" placeholder="Type..." />
+              </div>
+            </div>
+            <div class="form-group check-box">
+              <label>Do you prefer communication through email or text:</label>
+              <div class="boxes">
+                <div class="box">
+                  <input
+                    type="checkbox"
+                    id="email"
+                    name="communication"
+                    value="email"
+                  />
+                  <label for="email">Email</label>
+                </div>
+                <div class="box">
+                  <input
+                    type="checkbox"
+                    id="text"
+                    name="communication"
+                    value="text"
+                  />
+                  <label for="text">Text</label>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="view-all-reviews find-tutor-btn">
+              SUBMIT
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Become a tutor modal -->
+    <div class="modal_wrapper" id="become-tutor">
+      <div class="modal_container">
+        <div class="add-review find-tutor">
+          <a href="#" class="cancel-link close-modal find-tutor-icon">×</a>
+        </div>
+        <h2>Become a Tutor</h2>
+        <div class="review-form-container">
+          <form class="review-forms">
+            <div class="form-row">
+              <div class="form-group become-tutor-form">
+                <label for="name">First name</label>
+                <input type="text" id="name" placeholder="John" />
+              </div>
+              <div class="form-group become-tutor-form">
+                <label for="qoute">Last name</label>
+                <input type="text" id="qoute" placeholder="Doe" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group become-tutor-form">
+                <label for="state">What subjects do you teach</label>
+                <select id="state">
+                  <option>Select</option>
+                  <option>OOP</option>
+                  <option>Python</option>
+                  <option>JavaScript</option>
+                  <option>AI</option>
+                </select>
+              </div>
+              <div class="form-group become-tutor-form">
+                <label for="city">Current grade level</label>
+                <select id="city">
+                  <option>Select</option>
+                  <option>9th</option>
+                  <option>10th</option>
+                  <option>11th</option>
+                  <option>12th</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group become-tutor-form">
+                <label for="state">Current School</label>
+                <select id="state">
+                  <option>Select</option>
+                  <option>Govt School</option>
+                  <option>Lahore College</option>
+                </select>
+              </div>
+              <div class="form-group become-tutor-form">
+                <label for="city">What days of the week do you prefer?</label>
+                <select id="city">
+                  <option>Select</option>
+                  <option>Monday</option>
+                  <option>Tuesday</option>
+                  <option>Wednesday</option>
+                  <option>Thursday</option>
+                  <option>Friday</option>
+                  <option>Saturday</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group become-tutor-form">
+                <label for="state">What times of the day do you prefer?</label>
+                <select id="state">
+                  <option>Select</option>
+                  <option>Morning</option>
+                  <option>Evening</option>
+                </select>
+              </div>
+              <div class="form-group become-tutor-form">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="johndoe@example.com"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group become-tutor-form">
+                <label for="state">Phone Number</label>
+                <input type="text" id="Number" placeholder="Type..." />
+              </div>
+              <div class="form-group become-tutor-form check-box">
+                <label
+                  >Do you prefer communication through email or text:</label
+                >
+                <div class="boxes">
+                  <div class="box">
+                    <input
+                      type="checkbox"
+                      id="email"
+                      name="communication"
+                      value="email"
+                    />
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="box">
+                    <input
+                      type="checkbox"
+                      id="text"
+                      name="communication"
+                      value="text"
+                    />
+                    <label for="text">Text</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="view-all-reviews find-tutor-btn">
+              SUBMIT
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Footer done done -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-2">
+            <div class="footer-logo">
+              <img src="./assets/footer-icon.png" alt="Ivy Tutoring" />
+            </div>
+          </div>
+          <div class="col-7">
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li>
+                <a href="#" data-target="#tutorFormModal">Find a Tutor</a>
+              </li>
+              <li>
+                <a href="#" data-target="#become-tutor">Become a Tutor</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <div class="footer-contact">
+              <p>Contact Info</p>
+              <p>916-370-0808</p>
+              <p>
+                <a href="mailto:info@tutoringrocks.com"
+                  >info@tutoringrocks.com</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
